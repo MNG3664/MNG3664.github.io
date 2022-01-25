@@ -12,7 +12,7 @@ const [state, setState] = useState({
 	selected: {},
 });
 
-const apiurl = "http://www.omdbapi.com/?apikey=5b19ada0";
+const apiurl = "https://www.omdbapi.com/?apikey=5b19ada0";
 
 const searchInput = (e) => {
 	let s = e.target.value;
